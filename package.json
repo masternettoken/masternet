@@ -1,0 +1,18 @@
+{
+  "name": "masternet-token",
+  "version": "1.0.0",
+  "main": "truffle.js",
+  "license": "MIT",
+  "scripts": {    
+    "merge": "sol-merger \"./contracts/*.sol\" ./out"
+  },
+  "devDependencies": {
+    "sol-merger": "^0.1.2",
+    "solidity-coverage": "^0.4.15",
+    "zeppelin-solidity": "1.10.0"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "1.10.0",
+    "truffle-hdwallet-provider-privkey": "^0.2.0"
+  }
+}
